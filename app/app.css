@@ -34,3 +34,7 @@
   width: 50%;
   margin: auto;
 }
+
+.app-details img {
+  width: 60%;
+}

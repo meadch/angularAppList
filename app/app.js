@@ -10,5 +10,5 @@ angular.module('appList', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/templates'});
+  $routeProvider.otherwise({redirectTo: '/apps'});
 }]);
