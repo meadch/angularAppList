@@ -5,7 +5,7 @@ angular.module('appList', [
   'ngRoute',
   'appList.view1',
   'appList.view2',
-  'appList.templates'
+  'appList.apps'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

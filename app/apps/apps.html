@@ -1,10 +1,7 @@
 <div class="row apps">
-  <div class="col-md-4 col-sm-4">
-    <h1>nodeAuth</h1>
-    <a href="#!/apps/1" class="btn btn-primary btn-block">Details</a>
-  </div>
-  <div class="col-md-4 col-sm-4">
-    <h1>nodeAuth</h1>
-    <a href="#!/apps/1" class="btn btn-primary btn-block">Details</a>
+  <div class="col-md-4 col-sm-4" ng-repeat='app in apps'>
+    <h1>{{app.name}}</h1>
+    <p>{{app.description}}</p>
+    <a href="#!/apps/{{app.id}}" class="btn btn-primary btn-block">Details</a>
   </div>
 </div>
